@@ -1,0 +1,13 @@
+total 95
+drwxr-xr-x 1 YUHAN 197121     0 Apr  9 10:32 ./
+drwxr-xr-x 1 YUHAN 197121     0 Apr  2 11:29 ../
+drwxr-xr-x 1 YUHAN 197121     0 Apr  9 10:31 .git/
+-rw-r--r-- 1 YUHAN 197121  7788 Apr  2 11:27 .gitignore
+-rw-r--r-- 1 YUHAN 197121 35823 Apr  2 11:27 LICENSE
+-rw-r--r-- 1 YUHAN 197121   146 Apr  9 09:31 README.md
+-rw-r--r-- 1 YUHAN 197121     0 Apr  9 10:29 coffee.txt
+-rw-r--r-- 1 YUHAN 197121    15 Apr  9 09:31 commit
+-rw-r--r-- 1 YUHAN 197121     0 Apr  9 10:32 pizza.txt
+-rw-r--r-- 1 YUHAN 197121 33547 Apr  9 10:26 present.pptx
+-rw-r--r-- 1 YUHAN 197121   388 Apr  9 09:32 test.txt
+-rw-r--r-- 1 YUHAN 197121     0 Apr  9 09:32 text.txt
