@@ -1,3 +1,5 @@
+핏짜 먹구싶당
+
 total 95
 drwxr-xr-x 1 YUHAN 197121     0 Apr  9 10:32 ./
 drwxr-xr-x 1 YUHAN 197121     0 Apr  2 11:29 ../
