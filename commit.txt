@@ -1,0 +1,318 @@
+ commit
+
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git add README.md test.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git push
+Everything up-to-date
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ vi README.md
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ vi commit
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ vi text.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ls
+LICENSE  README.md  commit  test.txt  text.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ vi test.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git push
+Everything up-to-date
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ^C
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'commit', LF will be replaced by CRLF the next time Git touches it
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ got commit -m
+bash: got: command not found
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git commit -m
+error: switch `m' requires a value
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git commit -m 몰라
+[main bffbe01] 몰라
+ 4 files changed, 16 insertions(+)
+ create mode 100644 commit
+ create mode 100644 test.txt
+ create mode 100644 text.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ 햣 ㅔㅕ노
+bash: 햣: command not found
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 720 bytes | 720.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/JHW05/test
+   d5c7a99..bffbe01  main -> main
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ls
+LICENSE  README.md  commit  test.txt  text.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ls vi
+ls: cannot access 'vi': No such file or directory
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ls -ai
+ 1970324836974863 ./       562949953421642 .gitignore   1970324836975078 commit
+34339947158700082 ../      281474976711001 LICENSE      1407374883553767 test.txt
+ 1407374883553558 .git/   2251799813685718 README.md    1407374883553765 text.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ^C
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git remote -v
+origin  https://github.com/JHW05/test (fetch)
+origin  https://github.com/JHW05/test (push)
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[main ab87c80] coffee
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 coffee.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 249 bytes | 249.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JHW05/test
+   b028ef4..ab87c80  main -> main
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ ls -al > pizza.txt
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ la
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[main ecdf3a8] pizza
+ 1 file changed, 13 insertions(+)
+ create mode 100644 pizza.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[main 76cc288] pizza new
+ 1 file changed, 1 insertion(+)
+ create mode 100644 pizza
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 277 bytes | 277.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JHW05/test
+   ecdf3a8..76cc288  main -> main
+
+YUHAN@PC7202_22 MINGW64 /d/202317033/test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
