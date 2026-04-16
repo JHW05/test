@@ -1,0 +1,14 @@
+total 90
+-rw-r--r-- 1 YUHAN 197121  1488 Apr 16 11:08 '
+-rw-r--r-- 1 YUHAN 197121 35823 Apr 16 10:36 LICENSE
+-rw-r--r-- 1 YUHAN 197121   146 Apr 16 10:36 README.md
+-rw-r--r-- 1 YUHAN 197121     0 Apr 16 10:36 coffee.txt
+-rw-r--r-- 1 YUHAN 197121    18 Apr 16 10:36 commit
+-rw-r--r-- 1 YUHAN 197121  4570 Apr 16 10:36 commit.txt
+-rw-r--r-- 1 YUHAN 197121   102 Apr 16 11:06 new.txt
+-rw-r--r-- 1 YUHAN 197121    20 Apr 16 10:36 pizza
+-rw-r--r-- 1 YUHAN 197121   686 Apr 16 10:36 pizza.txt
+-rw-r--r-- 1 YUHAN 197121 33547 Apr 16 10:36 present.pptx
+-rw-r--r-- 1 YUHAN 197121   398 Apr 16 10:36 test.txt
+-rw-r--r-- 1 YUHAN 197121     0 Apr 16 10:36 text.txt
+-rw-r--r-- 1 YUHAN 197121     0 Apr 16 11:11 work.txt
